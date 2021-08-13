@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+@import url("http://fonts.cdnfonts.com/css/steiner");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.conatiner {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.hero .hero-img {
+  width: 30vw;
+}
+.hero div {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.hero div h1 {
+  font-family: "Qwigley", cursive;
+  font-size: 4em;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  width: max-content;
+}
+.hero div h2 {
+  font-family: "Steiner", sans-serif;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.09em;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.cursor-follow {
+  width: 100px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  animation: rotation 4.5s infinite linear;
+  pointer-events: none;
+  transition: top 1s, left 1s;
+  transition-timing-function: ease-out;
+}
+
+text {
+  font-size: 4em;
+  font-family: "Poppins";
+  font-weight: bold;
+  fill: #272626;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

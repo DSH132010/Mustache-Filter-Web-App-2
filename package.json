@@ -1,0 +1,31 @@
+{
+  "name": "mustache-filter-web-app-2",
+  "version": "1.0.0",
+  "description": "A Web App For A Mustache For You",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSH132010/Mustache-Filter-Web-App-2.git"
+  },
+  "keywords": [
+    "Mustache"
+  ],
+  "author": "D.S.Haemanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSH132010/Mustache-Filter-Web-App-2/issues"
+  },
+  "homepage": "https://github.com/DSH132010/Mustache-Filter-Web-App-2#readme",
+  "dependencies": {
+    "gsap": "^3.7.1",
+    "scrollmagic": "^2.0.8",
+    "smooth-scrollbar": "^8.6.3"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5"
+  }
+}
