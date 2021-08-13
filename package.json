@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/DSH132010/Mustache-Filter-Web-App-2#readme",
   "dependencies": {
+    "@barba/core": "^2.9.7",
     "gsap": "^3.7.1",
-    "scrollmagic": "^2.0.8",
-    "smooth-scrollbar": "^8.6.3"
+    "scrollmagic": "^2.0.8"
   },
   "devDependencies": {
     "sass": "^1.37.5"
